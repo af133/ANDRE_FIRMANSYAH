@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Situs Web Anda</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, hsl(228, 89%, 49%), hsl(199, 100%, 66%));
+            animation: gradient-bg 10s ease infinite;
+        }
+        @keyframes gradient-bg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .main-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+        .main-box h1 {
+            margin: 0 0 15px;
+        }
+        .main-box a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: hsl(226, 91%, 50%);
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .main-box a:hover {
+            background-color: hsl(226, 91%, 60%);
+        }
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <h1>Selamat Datang di Bimbel ANSYAH</h1>
+        <a href="login.html">Login</a>
+        <a href="daftar_akun.html">Buat Akun</a>
+        <a href="lupa_password.html">Lupa Password</a>
+    </div>
+</body>
+</html>
