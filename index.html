@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, hsl(228, 89%, 49%), hsl(199, 100%, 66%));
+            animation: gradient-bg 10s ease infinite;
+        }
+        @keyframes gradient-bg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .login-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .login-box:hover {
+            transform: scale(1.05);
+        }
+        .login-box img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .login-box h2 {
+            margin: 0 0 15px;
+        }
+        .login-box input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: border-color 0.3s ease;
+        }
+        .login-box input:focus {
+            border-color: hsl(226, 91%, 50%);
+        }
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            background-color: hsl(226, 91%, 50%);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-box button:hover {
+            background-color: hsl(226, 91%, 60%);
+        }
+        .login-box .links {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        .login-box .links a {
+            color: hsl(226, 91%, 50%);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .login-box .links a:hover {
+            color: hsl(226, 91%, 60%);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="logo.png" alt="Company Logo">
+        <h2>Login</h2>
+        <form action="halaman_utama.html" method="get">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div class="links">
+            <a href="C:\Website_Andre_Firmansyah\lupa_password_1.html">Lupa Password</a>
+            <a href="C:\Website_Andre_Firmansyah\daftar_akun.html">Buat Akun</a>
+        </div>
+    </div>
+</body>
+</html>
