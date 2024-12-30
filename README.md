@@ -4,8 +4,9 @@ Proyek ini adalah implementasi sederhana yang menampilkan cara kerja dasar fitur
 
 # ✨ Fitur Utama
 Login: Simulasi pengguna masuk dengan input data.
+
 Sign Up: Simulasi pendaftaran akun baru dengan formulir sederhana.
-Validasi formulir menggunakan JavaScript untuk memastikan input sesuai.
+
 
 # 📌 Tujuan
 Proyek ini dirancang untuk memberikan pemahaman mendasar tentang sistem autentikasi dasar tanpa memerlukan backend. Cocok untuk pemula yang ingin belajar dasar-dasar pengembangan web.
