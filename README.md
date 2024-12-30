@@ -14,7 +14,6 @@ Proyek ini dirancang untuk memberikan pemahaman mendasar tentang sistem autentik
 # 🚀 Teknologi yang Digunakan
 HTML: Struktur halaman.
 CSS: Tampilan yang menarik.
-JavaScript: Validasi dan interaktivitas.
 
 # ⚠️ Catatan
 Proyek ini hanya simulasi dan tidak menyimpan data secara permanen.
